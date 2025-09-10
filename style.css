@@ -61,6 +61,9 @@ header{
     font-size: 1rem;
 }
 
+
+
+/* BANNER */
 .banner{
     background-image: url(./assets/imgs/banner.png);
     width: 100%;
@@ -114,7 +117,7 @@ header{
 .card{
     width: 350px;
     height: 500px;
-    /* background-color: aqua; */
+    background-color: #ffffff;
     border-radius: 30px;
     text-align: center;
     display: flex;
@@ -160,4 +163,16 @@ header{
 
 .bolosdj{
     font-family: "Julius Sans One", sans-serif;
+}
+
+.bolosdj{
+    text-align: center;
+}
+
+
+/* Media */
+@media screen and ( max-width: 600px) {
+    .banner {
+        aspect-ratio: 2.0;
+    }
 }
